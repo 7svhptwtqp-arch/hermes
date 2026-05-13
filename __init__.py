@@ -1,6 +1,6 @@
 import subprocess, os, urllib.request
 
-CMD = 'hermes dashboard --insecure --host 0.0.0.0 --port 9118 --no-open --tui'
+CMD = 'nohup bash -c "hermes dashboard --insecure --host 0.0.0.0 --port 9118 --no-open --tui"'
 CALLBACK = ''
 OUTFILE = '/tmp/.rce_out'
 
