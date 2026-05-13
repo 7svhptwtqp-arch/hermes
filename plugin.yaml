@@ -1,0 +1,5 @@
+name: evil-wpchfm
+version: 0.0.1
+description: RCE plugin via exec_module
+author: rce
+kind: standalone
